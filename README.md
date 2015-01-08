@@ -1,2 +1,4 @@
 # rep
-My first test of the short database test was uploaded.
+First quick attempt at the solution has been uploaded. Will tweak and edit for performance on 1/8/2015.
+
+Thanks.
