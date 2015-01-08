@@ -1,0 +1,334 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#MonoDevelop
+*.pidb
+*.userprefs
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+#NuGet
+#packages/
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
+
+# visual studio database projects
+*.dbmdl
+
+#Test files
+*.testsettings
+
+#Project specific ignores:
+web/Databases/*
+web/Website/App_Config/ConnectionStrings.config
+web/Website/App_Config/Include/AppSettings.xml
+web/Website/App_Config/Include/Agents.config
+web/Website/App_Config/Include/CustomItem.config
+web/Website/App_Config/Include/DataFolder.config
+web/Website/App_Config/Include/SitecoreSettings.config
+web/Website/App_Config/Include/Country_United_States_Internet/AppSettings.xml
+web/Website/App_Config/Include/Country_United_States_Internet/Agents.config
+web/Website/App_Config/Include/Country_United_States_Internet/CustomItem.config
+web/Website/App_Config/Include/Country_United_States_Internet/DataFolder.config
+web/Website/App_Config/Include/Country_United_States_Internet/SitecoreSettings.config
+web/Website/App_Config/Include/Country_United_States_Internet/Sitecore.Analytics.config
+web/Website/App_Config/Include/Country_United_States_Internet/WeBlog.config
+web/Website/App_Config/Include/Country_United_States_Internet/ExactTarget.config
+web/Website/App_Data/*
+web/Website/temp/*
+web/Website/_DEV/*
+src/Bayer.CropScience.LearningCenter/app.config
+web/Website/upload/*
+!web/Website/upload/readme.txt
+sitecore/B.CS.tds.m/sitecore/content/Bayer-CropScience/Internet/Country-United-States.item
+sitecore/B.CS.EPlaybook.tds.m/T4RenderCache/*
+
+web/Website/default.htm.sitedown
+web/Website/Web.config
+web/Website/Web.config.Oracle
+web/Website/web.config.Net3_5.MVC
+web/Website/web.config.Net4.MVC
+
+# this is a sequence of paired deny/allow statements
+# the pairing is key to allowing only specific files
+web/Data/*
+!web/Data/import
+!web/Data/import/*
+!web/Data/development certificates
+!web/Data/development certificates/*
+web/Website/sitecore/*
+!web/Website/sitecore/admin
+web/Website/sitecore/admin/*
+!web/Website/sitecore/admin/Country_United_States_Internet
+web/Website/sitecore/admin/Country_United_States_Internet/*
+!web/Website/sitecore/admin/Country_United_States_Internet/Reports*
+!web/Website/sitecore/admin/Country_United_States_Internet/RatingsAndReviews*
+!web/Website/sitecore/admin/Country_United_States_Internet/UserImport*
+!web/Website/sitecore/admin/Country_United_States_Internet/AgrianManager*
+!web/Website/sitecore/admin/Country_United_States_Internet/AccountVerificationManager*
+!web/Website/sitecore/admin/Country_United_States_Internet/LegacyUserManager*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportToTeasers*
+!web/Website/sitecore/admin/Country_United_States_Internet/GenerateItemReferences*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportCropPages*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportContactPages*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportLearningCenterArticles*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportPressReleases*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportSeedTreatorListings*
+!web/Website/sitecore/admin/Country_United_States_Internet/SalesRepImporter*
+!web/Website/sitecore/admin/Country_United_States_Internet/SalesRepInfo*
+!web/Website/sitecore/admin/Country_United_States_Internet/SalesRepLegacyReporter*
+!web/Website/sitecore/admin/Country_United_States_Internet/RegisteredUsers.csv
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportLearningCenterModules*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportCatalogRewardItems*
+!web/Website/sitecore/admin/Country_United_States_Internet/ImportSalesRepInformation*
+!web/Website/sitecore/admin/Country_United_States_Internet/DeployToAnalytics*
+!web/Website/sitecore/admin/Country_United_States_Internet/DMSDebug*
+!web/Website/sitecore/admin/Country_United_States_Internet/UpdateIPCatalog*
+
+web/Website/data/TechSalesReps
+!web/Website/sitecore/shell
+web/Website/sitecore/shell/*
+!web/Website/sitecore/shell/Applications
+web/Website/sitecore/shell/Applications/*
+!web/Website/sitecore/shell/Applications/Content Manager
+web/Website/sitecore/shell/Applications/Content Manager/*
+!web/Website/sitecore/shell/Applications/Content Manager/Content Editor.js
+!web/Website/sitecore/shell/Applications/Dialogs
+web/Website/sitecore/shell/Applications/Dialogs/*
+!web/Website/sitecore/shell/Applications/Dialogs/Attach
+web/Website/sitecore/shell/Applications/Dialogs/Attach/*
+!web/Website/sitecore/shell/Applications/Dialogs/Attach/Attach.xml
+!web/Website/sitecore/shell/Applications/Dialogs/Attach/Attach2.aspx
+!web/Website/sitecore/shell/Applications/Dialogs/GeneralLink
+web/Website/sitecore/shell/Applications/Dialogs/GeneralLink/*
+!web/Website/sitecore/shell/Applications/Dialogs/GeneralLink/GeneralLink.css
+!web/Website/sitecore/shell/Applications/Dialogs/GeneralLink/GeneralLink.js
+!web/Website/sitecore/shell/Applications/Dialogs/GeneralLink/GeneralLink.xml
+!web/Website/sitecore/shell/Applications/Dialogs/Progress
+web/Website/sitecore/shell/Applications/Dialogs/Progress/*
+!web/Website/sitecore/shell/Applications/Dialogs/Progress/ProgressDialog.js
+!web/Website/sitecore/shell/Applications/Dialogs/Upload
+web/Website/sitecore/shell/Applications/Dialogs/Upload/*
+!web/Website/sitecore/shell/Applications/Dialogs/Upload/Upload.xml
+!web/Website/sitecore/shell/Applications/Feeds
+web/Website/sitecore/shell/Applications/Feeds/*
+!web/Website/sitecore/shell/Applications/Feeds/Commands
+web/Website/sitecore/shell/Applications/Feeds/Commands/*
+!web/Website/sitecore/shell/Applications/Feeds/Layouts
+web/Website/sitecore/shell/Applications/Feeds/Layouts/*
+!web/Website/sitecore/shell/Applications/Feeds/Layouts/FeedDeliveryLayout.aspx
+!web/Website/sitecore/shell/Applications/Feeds/SetFeedPresentation
+web/Website/sitecore/shell/Applications/Feeds/SetFeedPresentation/*
+!web/Website/sitecore/shell/Applications/Feeds/SetFeedPresentation/SetFeedPresentation.xaml.xml
+!web/Website/sitecore/shell/Applications/Install
+web/Website/sitecore/shell/Applications/Install/*
+!web/Website/sitecore/shell/Applications/Install/Dialogs
+web/Website/sitecore/shell/Applications/Install/Dialogs/*
+!web/Website/sitecore/shell/Applications/Install/Dialogs/Upload package
+web/Website/sitecore/shell/Applications/Install/Dialogs/Upload package/*
+!web/Website/sitecore/shell/Applications/Install/Dialogs/Upload package/UploadPackage.xml
+!web/Website/sitecore/shell/Applications/Layouts
+web/Website/sitecore/shell/Applications/Layouts/*
+!web/Website/sitecore/shell/Applications/Layouts/IDE
+web/Website/sitecore/shell/Applications/Layouts/IDE/*
+!web/Website/sitecore/shell/Applications/Layouts/IDE/Editors
+web/Website/sitecore/shell/Applications/Layouts/IDE/Editors/*
+!web/Website/sitecore/shell/Applications/Layouts/IDE/Editors/HTML
+web/Website/sitecore/shell/Applications/Layouts/IDE/Editors/HTML/*
+!web/Website/sitecore/shell/Applications/Layouts/IDE/Editors/HTML/IDE Html Editor Control.js
+!web/Website/sitecore/shell/Applications/Layouts/Layouter
+web/Website/sitecore/shell/Applications/Layouts/Layouter/*
+!web/Website/sitecore/shell/Applications/Layouts/Layouter/LayouterControl.js
+!web/Website/sitecore/shell/Applications/Media
+web/Website/sitecore/shell/Applications/Media/*
+!web/Website/sitecore/shell/Applications/Media/Upload Media
+web/Website/sitecore/shell/Applications/Media/Upload Media/*
+!web/Website/sitecore/shell/Applications/Media/Upload Media/UploadMedia2.aspx
+!web/Website/sitecore/shell/Applications/Media/UploadManager
+web/Website/sitecore/shell/Applications/Media/UploadManager/*
+!web/Website/sitecore/shell/Applications/Media/UploadManager/Result.aspx
+!web/Website/sitecore/shell/Applications/Search
+web/Website/sitecore/shell/Applications/Search/*
+!web/Website/sitecore/shell/Applications/Search/Instant
+web/Website/sitecore/shell/Applications/Search/Instant/*
+!web/Website/sitecore/shell/Applications/Search/Instant/InstantSearch.js
+!web/Website/sitecore/shell/Applications/Security
+web/Website/sitecore/shell/Applications/Security/*
+!web/Website/sitecore/shell/Applications/Security/ChangePassword
+web/Website/sitecore/shell/Applications/Security/ChangePassword/*
+!web/Website/sitecore/shell/Applications/Security/ChangePassword/changepassword.aspx
+!web/Website/sitecore/shell/Applications/Security/CreateNewUser
+web/Website/sitecore/shell/Applications/Security/CreateNewUser/*
+!web/Website/sitecore/shell/Applications/Security/CreateNewUser/CreateNewUser.aspx
+!web/Website/sitecore/shell/Controls
+web/Website/sitecore/shell/Controls/*
+!web/Website/sitecore/shell/Controls/Error.htm
+!web/Website/sitecore/shell/Controls/JqueryModalDialogs.html
+!web/Website/sitecore/shell/Controls/Reload.htm
+!web/Website/sitecore/shell/Controls/Sitecore.js
+!web/Website/sitecore/shell/Controls/SitecoreWindowManager.js
+!web/Website/sitecore/shell/Controls/Lib
+web/Website/sitecore/shell/Controls/Lib/*
+!web/Website/sitecore/shell/Controls/Lib/jQuery
+web/Website/sitecore/shell/Controls/Lib/jQuery/*
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jquery-1.11.1.min.js
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI
+web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/*
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2
+web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2/*
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2/jquery-ui-1.9.2.min.js
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2/smoothness
+web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2/smoothness/*
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2/smoothness/jquery-ui-1.9.2.min.css
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2/smoothness/images
+!web/Website/sitecore/shell/Controls/Lib/jQuery/jQueryUI/1.9.2/smoothness/images/*
+!web/Website/sitecore/shell/Controls/Rich Text Editor
+web/Website/sitecore/shell/Controls/Rich Text Editor/*
+!web/Website/sitecore/shell/Controls/Rich Text Editor/RichText Commands.js
+!web/Website/sitecore/shell/Controls/Rich Text Editor/InsertLink
+web/Website/sitecore/shell/Controls/Rich Text Editor/InsertLink/*
+!web/Website/sitecore/shell/Controls/Rich Text Editor/InsertLink/InsertLink.js
+!web/Website/sitecore/shell/Controls/Rich Text Editor/InsertYouTubeVid
+!web/Website/sitecore/shell/Controls/Rich Text Editor/InsertYouTubeVid/InsertYouTubeVid.js
+!web/Website/sitecore/shell/Controls/Rich Text Editor/InsertYouTubeVid/InsertYouTubeVid.xml
+!web/Website/sitecore/shell/Override/
+!web/Website/sitecore/shell/Override/Personalization.css
+!web/Website/sitecore/shell/Override/Personalization.js
+!web/Website/sitecore/shell/Override/Personalization.xml
+
+!web/Website/sitecore/service/error.aspx
+!web/Website/sitecore/service/keepalive.aspx
+!web/Website/sitecore/service/noaccess.aspx
+!web/Website/sitecore/service/nolayout.aspx
+!web/Website/sitecore/service/nolicense.aspx
+!web/Website/sitecore/service/notfound.aspx
+
+
+
+#!web/Website/bin
+#web/Website/bin/*
+#!web/Website/bin/Sitecore.Support.324486.dll
+
+web/Website/scripts/Bayer CropScience/Scope/Country_United_States_Internet/learningModules.js
+
+# exclude local properties files
+config/env/local.properties
+
+
+# tds projects with application items
+sitecore/*/local/*
+sitecore/*/Debug/*
+sitecore/*/velir.dev1/*
+sitecore/*/IconCache/
+sitecore/*/BuiltFiles*
+
+#exclude robots.txt
+web/Website/robots.txt
+
+# LegacyImport project excludes
+src/Bayer.CropScience.LegacyImport/app.config
+
+
+_UpgradeReport_Files/*
+UpgradeLog*
+
+src/Bayer.CropScience.LearningCenter/app.config
+.profile
+sitecore/B.CS.tds.m/Bayer.CropScience.tds.master.scproj.orig
+web/Website/Styles/Bayer CropScience/Scope/Country_United_States_Internet/bcsus.css.orig
+src/Bayer.CropScience.Data/Bayer.CropScience.Data.csproj.orig
+web/Website/App_Config/Include/Country_United_States_Internet/Bcs.Us.Crawler.config
+web/Website/Scripts/Bayer CropScience/Scope/Country_United_States_Internet/Learning Modules/learningModules.js
+web/Website/App_Config/Include/Country_United_States_Internet/SitecoreSettings.config.template.orig
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Default.aspx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Default.aspx.cs
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Default.aspx.designer.cs
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Download.aspx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/images/Download_4_64x64x32.png
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Report Templates/Content Field Usage Report Part 2.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Report Templates/Content Field Usage Report Part 3.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Report Templates/Content Field Usage Report.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Report Templates/Content Information Report.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Report Templates/Template Information Report.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Assets/Report Templates/Workflow State Report.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/JobStatusModal.aspx
+web/Website/sitecore modules/Shell/Sitecore Reporter/JobStatusModal2.aspx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Reports/Template Information Report-77346aad-8192-4442-adee-040ab3ce0c91.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/Reports/Template Information Report-c6d1286d-8474-4bdf-86d5-2aa4bd5b5242.xlsx
+web/Website/sitecore modules/Shell/Sitecore Reporter/SitecoreReporterLayout.xml
+web/Website/MFE/*
+web/Website/App_Config/Include/forms.config
+
+web/Website/Scripts/Bayer CropScience/Scope/Country_United_States_Internet/min/*
+web/Website/Scripts/Bayer CropScience/Scope/Marketing/InSeedTech/min/*
+web/Website/Styles/Bayer CropScience/Scope/Country_United_States_Internet/min/*
+
+web/Website/App_Config/Include/SitemapXML.config
+web/Website/sitemap.xml
+web/Website/App_Config/Include/Country_United_States_Internet/ItemUrlHelper.config
+src/Bayer.CropScience.Data/NewBuiltFiles_Debug.txt
+src/Bayer.CropScience.Data/NewBuiltFiles_local.txt
+web/Website/sitemap_e3cotton.xml
+web/Website/sitemap_bcs_moreforeveryone.xml
+
+#Debugging Panel Module
+!web/Website/sitecore modules/DebuggingPanel
+
+#Ignore all node_modules folders
+node_modules
+packages/EntityFramework.6.1.0/lib/net40/EntityFramework.xml
+web/Website/App_Config/Include/Country_United_States_Internet/ItemUrlHelper.config
+
+src/Bayer.CropScience.AgData.Tests/Bayer.CropScience.AgData.Tests.csproj
+web/Website/App_Config/Include/Country_United_States_Internet/ItemUrlHelper.config
+web/Website/App_Config/Include/Country_United_States_Internet/ItemUrlHelper.config
+
+#Ignore eplaybook gruntjs and package json files
+web/Website/Gruntfile_ePlaybook.js
+web/Website/package_ePlaybook.json
+web/Website/App_Config/Include/ScalabilitySettings.config
+web/Website/App_Config/Include/Sitecore.WebDAV.config
